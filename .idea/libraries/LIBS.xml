@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="LIBS">
+    <CLASSES>
+      <root url="jar://F:/IDEA_lib/commons-beanutils-1.8.0.jar!/" />
+      <root url="jar://F:/IDEA_lib/commons-logging.jar!/" />
+      <root url="jar://F:/IDEA_lib/dom4j-1.6.1.jar!/" />
+      <root url="jar://F:/IDEA_lib/jaxen-1.1-beta-6.jar!/" />
+      <root url="jar://F:/IDEA_lib/jstl.jar!/" />
+      <root url="jar://F:/IDEA_lib/standard.jar!/" />
+      <root url="jar://F:/IDEA_lib/mysql-connector-java-5.0.8-bin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

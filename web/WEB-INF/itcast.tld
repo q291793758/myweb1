@@ -1,0 +1,40 @@
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+    <description>A tag library exercising SimpleTag handlers.</description>
+    <tlib-version>1.0</tlib-version>
+    <short-name>itcast</short-name>
+    <uri>http://www.itcast.cn</uri>
+
+    <tag>
+        <description>tag描述</description>
+        <name>viewIP</name>
+        <tag-class>cn.itcast.Tags.VIewIPTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <description>tag控制标签体是否输出在jsp页面</description>
+        <name>Showbodytag</name>
+        <tag-class>cn.itcast.Tags.Showbodytag</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
+    <tag>
+        <description>tag控制page页面是否输出</description>
+        <name>ShowPagetag</name>
+        <tag-class>cn.itcast.Tags.ShowPagetag</tag-class>
+        <body-content>empty</body-content>
+    </tag><tag>
+        <description>tag控制输出5次</description>
+        <name>IteratiorTag</name>
+        <tag-class>cn.itcast.Tags.IteratiorTag</tag-class>
+        <body-content>JSP</body-content>
+    </tag><tag>
+        <description>修改标签体 toUppercase</description>
+        <name>ChangeContextTag</name>
+        <tag-class>cn.itcast.Tags.ChangeContextTag</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
+
+
+</taglib>
